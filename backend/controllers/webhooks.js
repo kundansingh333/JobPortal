@@ -28,7 +28,9 @@ export const clerkWebhooks=async(req,res)=>{
             image:data.image_url,
             resume:''
           }
+          
           await User.create(userData);
+          console.log("User created");
           res.json({});
           break;
 

@@ -25,3 +25,11 @@ const userSchema=new mongoose.Schema({
 
 const User=mongoose.model('User',userSchema);
 export default User;
+
+
+
+
+/// brew services start mongodb-community
+
+/// brew services stop mongodb-community
+/// mongosh
